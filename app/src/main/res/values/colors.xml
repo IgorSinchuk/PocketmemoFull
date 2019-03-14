@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="backgroundcolor">#FAFAFA</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yellow">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorAccent">#000</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="msg_no_notes">#999</color>
+    <color name="hint_enter_note">#89c3c3c3</color>
+    <color name="timestamp">#858585</color>
+    <color name="note_list_text">#232323</color>
+
+    <!--Light theme-->
+
+    <color name="fabBtnB">#000</color>
+    <color name="noMemoBtnB">#000</color>
+    <color name="fabPlusB">#000</color>
+    <color name="timeTxtB">#000</color>
+    <color name="textMemoB">#000</color>
+    <color name="newMemoB">#000</color>
+    <color name="newMemoHintG">#89c3c3c3</color>
+    <color name="noMemoLabelB">#000</color>
+    <color name="alertBuilderInputB">#000</color>
+
+    <!--Dark theme-->
+
+    <color name="fabBtnW">#fff</color>
+    <color name="noMemoBtnW">#fff</color>
+    <color name="fabPlusW">#fff</color>
+    <color name="timeTxtW">#fff</color>
+    <color name="textMemoW">#fff</color>
+    <color name="newMemoW">#fff</color>
+    <color name="noMemoLabelW">#fff</color>
+    <color name="alertBuilderInputWfgdfg">#fff</color>
+
+</resources>

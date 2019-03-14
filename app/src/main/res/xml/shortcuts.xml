@@ -1,0 +1,17 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="New memo"
+        android:enabled="true"
+        android:icon="@drawable/ic_lock_outline_black_24dp"
+        android:shortcutShortLabel="@string/securedMemo"
+        android:shortcutLongLabel="@string/securedMemo">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.nonexistenware.igor.pocketmemo"
+            android:targetClass="com.nonexistenware.igor.pocketmemo.view.WarningSecuredActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

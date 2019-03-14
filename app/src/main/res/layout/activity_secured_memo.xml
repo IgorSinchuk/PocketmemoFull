@@ -1,0 +1,55 @@
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinate_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SecuredMemoActivity">
+
+    <include layout="@layout/secured_content_memo"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newMemoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white_24dp"
+        app:backgroundTint="@color/fabBtnB"/>
+
+    <!--<com.github.clans.fab.FloatingActionMenu-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="16dp"-->
+        <!--fab:menu_colorNormal="@color/fabBtnB"-->
+        <!--fab:menu_colorPressed="#232323"-->
+        <!--fab:menu_labels_style="@style/fabLabel">-->
+
+        <!--<com.github.clans.fab.FloatingActionButton-->
+            <!--android:id="@+id/newMemoBtn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/ic_add_white_24dp"-->
+            <!--fab:menu_colorPressed="#232323"-->
+            <!--fab:fab_size="mini"-->
+            <!--fab:fab_label="New memo"-->
+            <!--fab:fab_colorNormal="@color/fabBtnB"/>-->
+
+        <!--<com.github.clans.fab.FloatingActionButton-->
+            <!--android:id="@+id/backBtn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/ic_arrow_back_white_24dp"-->
+            <!--fab:menu_colorPressed="#232323"-->
+            <!--fab:fab_size="mini"-->
+            <!--fab:fab_label="Back"-->
+            <!--fab:fab_colorNormal="@color/fabBtnB"/>-->
+
+
+    <!--</com.github.clans.fab.FloatingActionMenu>-->
+
+</android.support.design.widget.CoordinatorLayout>
